@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+}
+
+ul {
+	margin:0;
+	padding: 0;
+}
+
+
+li {
+	width: 50%;
+	display: inline-block;
+	height: 350px;
+}
+
+.projectBanner {
+	width:100%;
+	position: absolute;
+	margin-top: -4.5rem;
+}
+
+.projectBannerPosition {
+	width: 270px;
+	height: 72px;
+	color: white;
+	font-size: 3.5rem;
+	background-color: rgba(0, 0, 0, .5);
+	margin: auto;
+	text-align: center;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top: solid 1px white;
+	border-right: solid 1px white;
+	border-left: solid 1px white;
+}
+
+.marginChange {
+	margin-left: -4px;
+}
+
+.topMarginChange {
+	margin-top: -4px;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+#header {
+	position: fixed;
+	height: 70px;
+	width: 100%;
+	background-color: white;
+	opacity: .8;
+	text-align: center;
+}
+
+.headeritem {
+	margin-top: 25px;
+	display: inline-block;
+	width: 24%;
+	color: black;
+	font-size: 1.3rem;
+	cursor: default;
+}
+
+.headerword:hover {
+	color: #249C70;
+	opacity:1;
+}
+
+#section1 {
+	background: url(../media/welcome.jpg) no-repeat center center fixed;
+	background-size: cover;
+	height:500px;
+	width:100%;
+}
+
+.blackOutline {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.form {
+	background-image: url(../media/contactForm.jpg);
+	background-size: cover;
+}
+
+.quiz {
+	background-image: url(../media/starWarsQuiz.jpg);
+	background-size: cover;
+}
+
+.ticTacToe {
+	background-image: url(../media/ticTacToe.jpg);
+	background-size: cover;
+}
+
+.youTube {
+	background-image: url(../media/youTubeSearch.jpg);
+	background-size: cover;
+}
